@@ -87,7 +87,12 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     function decimals() public view virtual override returns (uint8) {
         return 18;
     }
-
+  /**
+     * @dev Sets the values for {name} and {symbol}.
+     *
+     * All two of these values are immutable: they can only be set once during
+     * construction.
+     */
     /**
      * @dev See {IERC20-totalSupply}.
      */
