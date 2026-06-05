@@ -191,7 +191,8 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _approve(owner, spender, allowance(owner, spender) + addedValue);
         return true;
     }
-
+    /**
+    /**
     /**
      * @dev Atomically decreases the allowance granted to `spender` by the caller.
      *
